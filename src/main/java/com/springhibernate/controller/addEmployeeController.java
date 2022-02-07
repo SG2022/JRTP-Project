@@ -23,7 +23,7 @@ public class addEmployeeController {
 	@RequestMapping(value="/welcome", method=RequestMethod.GET)
 	public String listEmp() {
 		
-		return "welcome";
+		return "welcome customer";
 		
 	}
 	
